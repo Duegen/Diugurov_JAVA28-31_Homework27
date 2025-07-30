@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Poller One", sans-serif;
+  color: #e5dc61;
+
+}
+body{
+  width: 100vw;
+  background: url("src/images/sky.jpg"), black;
+}
+
+header{
+  text-align: center;
+  background-color: rgba(69, 69, 69, 0.5);
+  border-radius: 25px 25px 0 0;
+}
+nav ul li{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background: rgb(200, 21, 54, 0.7);
+  box-shadow: 0.2rem  0.2rem rgba(100, 100, 100, 0.3);
+  cursor: pointer;
+}
+nav{
+  position: fixed;
+  margin: 0;
+}
+h1{
+  margin: 0;
+  padding: 1.2rem
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+.left{
+  float: left;
+  width: 25%;
+  margin: 0 15px 5px 5px;
+}
+.left img{
+  width: 100%;
+  box-shadow:0.5rem  0.5rem rgba(100, 100, 100, 0.3);
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery img{
+  width: calc(100% / 3);
+}
+.right{
+  float: right;
+  width: 50%;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 0 0 10px 10px;
+  margin: 0 5px 10px 10px;
+}
+.right h3{
+  margin: 5px;
+}
+footer{
+  clear: both;
+  background-color: rgba(69, 69, 69, 0.5);
+  border-radius: 0 0 25px 25px;
+  padding: 0.5rem 0;
+}
+.btn{
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background: rgb(200, 21, 54, 0.7);
+  box-shadow: 0.2rem  0.2rem rgba(100, 100, 100, 0.3);
+  width: max-content;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.farGalaxy{
+  font-size: 1.3rem;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+  text-align: justify ;
+  color:rgb(200, 21, 54, 0.7);
+}
+.farGalaxy span{
+  color: #e5dc61;
+}
+.img_left{
+  border-radius: 0 0 0 10px;
+}
+.img_right{
+  border-radius: 0 0 10px 0;
+}
+.btn span{
+  color: black;
+}
+.big{
+  width: 100%;
+}
+/*------------------------------------------------------*/
+.characterList{
+  overflow: scroll;
+  width: fit-content;
+  height: 500px;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.characterList>ul>li{
+  cursor: pointer;
+}
+
+.aboutMe{
+  display: flex;
+}
+
+.charInfo{
+  margin-left: 20px;
+}
+
+header{
+  width: 100vw;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  background-color: dimgray;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #b41616;
+  color: #e5dc61;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  /*opacity: 0.33;*/
+  width: 500px;
+  border-radius: 5px;
+  /*background-color: #1e1f22;*/
+  padding: 20px;
+}
