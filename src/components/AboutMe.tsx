@@ -1,7 +1,8 @@
 import {Component} from "react";
 import CharacterList from "./CharacterList.tsx";
-import type {Character} from "../types";
+
 import CharInfo from "./CharInfo.tsx";
+import type {Character} from "../utils/sw-types";
 
 
 

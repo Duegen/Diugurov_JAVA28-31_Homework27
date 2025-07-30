@@ -1,5 +1,6 @@
 import type {FC} from "react";
-import type {Character} from "../types";
+import type {Character} from "../utils/sw-types";
+
 
 type Props ={
     charInfo: Character
